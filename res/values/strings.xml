@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">DynamicLoadAPKDemo</string>
+    <string name="originAPK">apks/hello.apk</string>
+    <string name="dynamicLoadedAPKPath">dyn.apk</string>
+    <string name="shell_btn_login">Login</string>
+    <string name="originapk_activity">com.example.oma3.MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="test">Second!</string>
+
+
+</resources>
