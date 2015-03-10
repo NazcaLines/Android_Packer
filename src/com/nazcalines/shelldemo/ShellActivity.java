@@ -49,6 +49,7 @@ public class ShellActivity extends Activity{
         try {
         	Intent i = new Intent(this, getApplication().getClassLoader()
                     .loadClass(originMainActivity));
+			i.addFlag(FLAG_ACTIVITY_NEW_TASK);
             startActivity(i);
             return;
         }
